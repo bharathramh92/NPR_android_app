@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NPR App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="key">MDE4MzQ2MDY4MDE0MjQ1NTg5MzBkMWU2Yg001</string>
+    <string name="programs">Programs</string>
+    <string name="topics">Topics</string>
+    <string name="favourites">Favourites</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="nprListUrl">http://api.npr.org/list</string>
+    <string name="nprQueryUrl">http://api.npr.org/query</string>
+    <string name="loadtext">Loading</string>
+    <string name="title_activity_stories">StoriesActivity</string>
+    <string name="title_activity_story">StoryActivity</string>
+    <string name="prefKey">NPR_Shared_Pref_Key</string>
+    <string name="clear_history">Clear History</string>
+
+</resources>

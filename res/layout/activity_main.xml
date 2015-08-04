@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/npr_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/mainPrograms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/programs"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+        
+        <Space 
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/mainTopics"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/topics" 
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+    
+    <Space 
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/mainFavourite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/favourites" 
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+		<Space 
+		    android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/mainExit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/exit" 
+            android:layout_weight="2"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
